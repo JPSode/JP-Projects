@@ -1,0 +1,776 @@
+    /* HÃ¤r kan du skriva din interna CSS-kod */
+
+    /* BehÃ¥ll denna kod, den fÃ¶rhindrar att din egen kod hamnar under W3C logos nedan */
+
+
+    /* Start of: HEADER */
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+
+    h2,
+    h3 {
+        color: #F76C6C;
+
+    }
+
+    p {
+        font-weight: 500;
+    }
+
+    header {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    header a {
+        margin-right: 16px;
+    }
+
+    i {
+        color: #123C69;
+    }
+
+    i.added_oppacity {
+        opacity: 0.8;
+}
+
+    .a_nav_class {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background: #123C69;
+
+    }
+
+
+
+    .site_title {
+        color: white;
+        font-weight: bold;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .logga_img {
+        height: 46px;
+        margin: 6px 0px 0px 0px;
+        padding: 0;
+    }
+
+    /* End of: HEADER */
+
+    /* Start of backround images */
+
+    .background_start {
+        background-image: url("bilder/background.jpg");
+    }
+
+    .background_services {
+        background-image: url("bilder/lyftkranar.jpg");
+    }
+
+    .background_omoss {
+        background-image: url("bilder/eldkastare.jpg");
+    }
+
+    .second_background_omoss {
+        background-image: url("bilder/street-construction.jpg");
+        background-attachment: fixed;
+    }
+
+    .background_kontakt {
+        background-image: url("bilder/kontaktsidanheader.jpg");
+    }
+
+    .background_projekt {
+        background-image: url("bilder/projektsidanheader.jpg");
+    }
+
+    .backround_kunder {
+        background-image: url("bilder/glasbuilding.jpg");
+    }
+
+    .backround_reference {
+        background-image: url("bilder/betongvägg.jpeg");
+    }
+
+    .background_liten {
+        height: 400px !important;
+    }
+
+    .background_stor {
+        height: 550px !important;
+    }
+
+    .background_header {
+        height: 900px !important;
+    }
+
+    .background_size {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* Start of backround images */
+
+
+
+    /*start of kontakt and projektsidor*/
+    h1.projekt_sida {
+        text-align: center;
+        margin: auto;
+        padding: 0px;
+        padding-top: 15%;
+        color: whitesmoke;
+        font-size: 60px;
+    }
+
+    .card-img-top {
+        height: 400px;
+    }
+
+    /*end of kontakt and projektsidor*/
+
+
+
+    .clearfix {
+        clear: both;
+    }
+
+    section {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
+    .projekt_bild_size {
+        width: 100%;
+    }
+
+    /* Start of: ABOUT CONTENT STYLES */
+
+    .about_content_content {
+        padding: 0;
+        margin: 5%;
+        float: left;
+        width: 90%;
+        position: relative;
+    }
+
+    .about_content_content.full_length {
+        background: #FFF;
+        padding: 6% 10%;
+    }
+
+    /* Källa för shadow effect: [https://css-tricks.com/almanac/properties/b/box-shadow/] */
+
+    .shadow_side_effect {
+        background: #FFF;
+        border: solid 2px whitesmoke;
+    }
+
+    .shadow_side_effect:before,
+    .shadow_side_effect:after {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 15px;
+        left: 10px;
+        width: 50%;
+        top: 80%;
+        max-width: 300px;
+        background: #777;
+        -webkit-box-shadow: 0 15px 10px #777;
+        -moz-box-shadow: 0 15px 10px #777;
+        box-shadow: 0 15px 10px #777;
+        -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+    }
+
+    .shadow_side_effect:after {
+        -webkit-transform: rotate(3deg);
+        -moz-transform: rotate(3deg);
+        -o-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+        transform: rotate(3deg);
+        right: 10px;
+        left: auto;
+    }
+
+
+
+    .about_content_list_container,
+    .about_content_list,
+    .about_content_list_item {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        align-content: center;
+    }
+
+    .about_content_list {
+        margin-top: 20px;
+    }
+
+
+
+    .about_content_list_item {
+        margin-top: 1.5em;
+        margin-left: 20px;
+    }
+
+    .about_content_list_item span {
+        position: relative;
+        top: -6px;
+        margin-left: 20px;
+    }
+
+    /* End of: ABOUT CONTENT STYLES */
+
+
+    /* Start of: REFERENSES */
+
+    .referens_info2 {
+        width: 40%;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: white;
+        margin: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    section.about_services {
+        padding-bottom: 0;
+    }
+
+    .image_kunder {
+        width: 100%;
+    }
+
+    .image_kunder_margin_top {
+        margin-top: 30px;
+    }
+
+    .image_kunder_margin_top_40 {
+        margin-top: 40px;
+    }
+
+    /* End of: REFERENSES */
+
+    /* Start of: ABOUT CONTENT STYLES */
+
+    .about_content_content {
+        padding: 0;
+        margin: 5%;
+        float: left;
+        width: 90%;
+    }
+
+    .about_content_list_container,
+    .about_content_list,
+    .about_content_list_item {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        align-content: center;
+    }
+
+    .about_content_list {
+        margin-top: 2em;
+    }
+
+
+
+    .about_content_list_item {
+        margin-top: 1.5em;
+    }
+
+    /* End of: ABOUT CONTENT STYLES */
+
+    /* Start of: FOOTER */
+
+    .footer {
+        background-color: #0b2541;
+        width: 100%;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        padding: 50px 0px 0px 50px;
+    }
+
+    .about_list_footer {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about_list_footer a {
+        font-size: 18px;
+    }
+
+    .about_list_footer li {
+        margin: 10px;
+    }
+
+    .about_list_footer i {
+        position: relative;
+        top: 6.8px;
+        margin-right: 10px;
+    }
+
+    .footer a {
+        color: whitesmoke;
+    }
+
+
+    /* End of: FOOTER */
+
+
+    /* Start of: Tjänst sida */
+
+    .additional_services_picture {
+        height: 300px;
+        border: 20px;
+
+    }
+
+    .additional_services_indicators {
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    .additional_services_icons {
+        font-size: 60px;
+    }
+
+    .indicator_background {
+        background-color: whitesmoke;
+        width: 100%;
+
+    }
+
+    .question_services {
+        font-weight: 800;
+    }
+
+
+
+    /* End of: Tjänst sida */
+
+
+
+    /* Start of: buttons */
+
+    .button_shadow {
+        -webkit-box-shadow: 0px 4px 4px 0px rgba(194, 194, 194, 0.8);
+        -moz-box-shadow: 0px 4px 4px 0px rgba(194, 194, 194, 0.8);
+        box-shadow: 0px 4px 4px 0px rgba(194, 194, 194, 0.8);
+        transition: all 0.3s ease 0s;
+    }
+
+    .button_shadow:hover {
+        -webkit-box-shadow: 0px 6px 6px 1px rgba(194, 194, 194, 0.2);
+        -moz-box-shadow: 0px 6px 6px 1px rgba(194, 194, 194, 0.2);
+        box-shadow: 0px 6px 6px 1px rgba(194, 194, 194, 0.2);
+    }
+
+    .button_hover_up {
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease 0s;
+    }
+
+    .button_contact {
+        background: #17a2b8;
+        color: whitesmoke;
+        font-weight: 500;
+    }
+
+    .button_hover_up:hover {
+        transform: translateY(-5px);
+    }
+
+    .center_button_third_width {
+        width: 33.3%;
+        margin-left: 33.3%;
+    }
+
+    .button_easy_border_radius {
+        border-radius: 8px;
+    }
+
+    /* End of: buttons */
+
+    /* Start of: Validation W3Schools */
+
+    .wc3Validator_container {
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: solid 1px rgba(204, 204, 204, 0.4);
+    }
+
+    .w3cValidator_item {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    /* Start of: Copyright */
+
+    .copyright_container {
+        width: 100%;
+        background: #07192c;
+        margin: 0;
+        padding: 4px 0px 0px 0px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .copyright_container i {
+        position: relative;
+        top: 6.8px;
+    }
+
+    .copyright_container p {
+        color: whitesmoke;
+    }
+
+.dont_display_element {
+    display: none;
+}
+
+
+    .form_label {
+        font-weight: 600;
+    }
+
+    /* 
+ *
+ *  Responsiv design, enhetsstorlekar är hämtade från Github
+ *  Källa: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+ *
+ *
+ */
+
+    /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+
+        .site_title {
+            font-size: 40px;
+        }
+
+
+
+
+        footer .col {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center !important;
+        }
+
+        .about_content_list {
+            margin-top: 20px;
+        }
+
+        .about_content_list_item.first {
+            margin-top: 0px;
+        }
+
+        .about_content_list_item {
+            text-align: left;
+            margin-left: 10px;
+            margin-top: 1.2em;
+        }
+
+        .about_content_list_item span {
+            margin-left: 10px;
+        }
+
+        .background_stor {
+            height: 550px !important;
+        }
+
+        .footer {
+            padding: 0px !important;
+        }
+
+    }
+
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+        .site_title {
+            font-size: 40px;
+        }
+
+        .project_front_page_section {
+            display: none !important;
+        }
+
+        .referens_info2,
+        .col,
+        .col-4,
+        .col-8 {
+            max-width: 95% !important;
+            width: 95% !important;
+            margin-left: 2.5% !important;
+            flex: none;
+        }
+
+        footer .col {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center !important;
+        }
+
+        .about_content_list_item {
+            text-align: center !important;
+        }
+
+
+        .background_header {
+            height: 750px !important;
+        }
+
+        .background_stor {
+            height: 700px !important;
+        }
+
+        .footer {
+            padding: 0px !important;
+        }
+
+    }
+
+
+
+    @media (max-width: 991px) {
+
+        .navbar-brand,
+        .navbar-nav {
+            width: 90% !important;
+            margin-left: 5% !important;
+            padding: 0px !important;
+            text-align: center !important;
+        }
+
+        .nav-item {
+            width: 100% !important;
+            margin: 0px !important;
+            padding: 0px !important;
+        }
+
+        nav-link {
+            width: 100% !important;
+            margin: 0px !important;
+            padding: 0px !important;
+        }
+
+
+    }
+
+    /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+        .site_title {
+            font-size: 40px;
+        }
+
+        .project_front_page_section {
+            display: none !important;
+        }
+
+        .referens_info2,
+        .col,
+        .col-4,
+        .col-8 {
+            max-width: 95% !important;
+            width: 95% !important;
+            margin-left: 2.5% !important;
+            flex: none;
+        }
+
+        footer .col {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center !important;
+        }
+
+        .about_content_list_item {
+            text-align: left;
+        }
+
+        .background_header {
+            height: 750px !important;
+        }
+
+        .background_stor {
+            height: 700px !important;
+        }
+
+        .footer {
+            padding: 0px !important;
+        }
+
+    }
+
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+    @media (min-width: 481px) and (max-width: 767px) {
+
+        .site_title {
+            font-size: 40px;
+        }
+
+        .project_front_page_section {
+            display: none !important;
+        }
+
+        .col.referens_info2 {
+            font-size: 28px;
+        }
+
+        .referens_info2,
+        .col,
+        .col-4,
+        .col-8 {
+            max-width: 95% !important;
+            width: 95% !important;
+            margin-left: 2.5% !important;
+            padding: 0px;
+            flex: none;
+        }
+
+        footer .col {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center !important;
+        }
+
+        .about_content_list_item {
+            text-align: center;
+        }
+
+        .background_header {
+            height: 500px !important;
+        }
+
+        .background_stor {
+            height: 700px !important;
+        }
+
+        .footer {
+            padding: 0px !important;
+        }
+    }
+
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+    @media (max-width: 480px) {
+
+        .site_title {
+            font-size: 40px;
+        }
+
+        .col.referens_info2 {
+            font-size: 24px;
+        }
+
+
+        .project_front_page_section {
+            display: none !important;
+        }
+
+        .referens_info2,
+        .col,
+        .col-4,
+        .col-8 {
+            max-width: 95% !important;
+            width: 95% !important;
+            margin-left: 2.5% !important;
+            flex: none;
+        }
+
+        footer .col {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center !important;
+        }
+
+        .about_content_list_item {
+            text-align: center;
+        }
+
+        .background_header {
+            height: 500px !important;
+        }
+
+        .background_stor {
+            height: 900px !important;
+        }
+
+        .footer {
+            padding: 0px !important;
+        }
+
+        .btn.btn-light.center_button_third_width {
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+
+
+    /* 
+ *
+ *  Print design,
+ *  Källa: https://www.w3schools.com/css/css3_mediaqueries.asp
+ *
+ *
+ */
+
+    @media print {
+
+        /* All your print styles go here */
+        header,
+        footer,
+        nav,
+        .btn,
+        img,
+        .about_content_list_container,
+        .about_content_content h5 {
+            display: none !important;
+        }
+
+        div {
+            border: none !important;
+        }
+
+        section {
+            padding-top: 40px !important;
+        }
+    }
